@@ -167,7 +167,7 @@ SOFTWARE.
         <source-file src="src/android/LibraryProject/res/values-zh-rTW/strings.xml" target-dir="res/values-zh-rTW"/>
         <source-file src="src/android/LibraryProject/res/xml/preferences.xml" target-dir="res/xml"/>
 
-        <config-file target="res/values/colors.xml" parent="/resources">
+        <config-file target="res/values/cdv_colors.xml" parent="/resources">
           <color name="contents_text">#ff000000</color>
           <color name="encode_view">#ffffffff</color>
           <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
@@ -182,7 +182,7 @@ SOFTWARE.
         </config-file>
 
         <!-- plugman cannot merge - prepare manual merge -->
-        <config-file target="res/values/strings.xml" parent="/resources">
+        <config-file target="app/src/main/res/values/cdv_strings.xml" parent="/resources">
             <string name="app_picker_name">Applications</string>
             <string name="bookmark_picker_name">Bookmarks</string>
             <string name="button_add_calendar">Add to calendar</string>
